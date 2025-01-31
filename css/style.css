@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  body {
+    height: 100vh;
+    background-color: #f9f9f9;
+    font: 16px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    /* background-image: url(https://cdn.pixabay.com/photo/2018/01/21/14/36/indian-flag-3096740_1280.png); */
+    background: linear-gradient(to right, orange, white, green);
+    object-fit: cover;
+    background-size: cover;
+    background-position: 20% 20%;
+    background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+  }
+  .conatiner {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+    font-size: 18px;
+  }
+  .right,
+  #radio {
+    padding: 10px;
+  }
+  .left {
+    display: inline-block;
+    padding: 10px;
+  }
+  .right {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  #age-label {
+    padding-right: 33px;
+  }
+  #height-label {
+    padding-right: 14px;
+  }
+  #radio {
+    margin-bottom: 10px;
+  }
+  #calculate {
+    margin-left: 82px;
+    font-weight: bold;
+    background-color: green;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-color: #333;
+    color: white;
+  }
+  #clear {
+    background-color: #bbbbbb;
+  }
+  #result {
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: green;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+  }
